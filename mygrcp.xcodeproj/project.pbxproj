@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		692FB68D22FF1AC500294441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692FB68C22FF1AC500294441 /* AppDelegate.swift */; };
+		692FB68F22FF1AC500294441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692FB68E22FF1AC500294441 /* ViewController.swift */; };
+		692FB69122FF1AC600294441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692FB69022FF1AC600294441 /* Assets.xcassets */; };
+		692FB69422FF1AC600294441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692FB69222FF1AC600294441 /* Main.storyboard */; };
+		692FB6A022FF1AC600294441 /* mygrcpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692FB69F22FF1AC600294441 /* mygrcpTests.swift */; };
+		692FB6AB22FF1AC600294441 /* mygrcpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692FB6AA22FF1AC600294441 /* mygrcpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		692FB69C22FF1AC600294441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 692FB68122FF1AC500294441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692FB68822FF1AC500294441;
+			remoteInfo = mygrcp;
+		};
+		692FB6A722FF1AC600294441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 692FB68122FF1AC500294441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692FB68822FF1AC500294441;
+			remoteInfo = mygrcp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		692FB68922FF1AC500294441 /* mygrcp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mygrcp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		692FB68C22FF1AC500294441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		692FB68E22FF1AC500294441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		692FB69022FF1AC600294441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		692FB69322FF1AC600294441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		692FB69522FF1AC600294441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692FB69622FF1AC600294441 /* mygrcp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mygrcp.entitlements; sourceTree = "<group>"; };
+		692FB69B22FF1AC600294441 /* mygrcpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mygrcpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		692FB69F22FF1AC600294441 /* mygrcpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mygrcpTests.swift; sourceTree = "<group>"; };
+		692FB6A122FF1AC600294441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692FB6A622FF1AC600294441 /* mygrcpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mygrcpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		692FB6AA22FF1AC600294441 /* mygrcpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mygrcpUITests.swift; sourceTree = "<group>"; };
+		692FB6AC22FF1AC600294441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		692FB68622FF1AC500294441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB69822FF1AC600294441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB6A322FF1AC600294441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692FB68022FF1AC500294441 = {
+			isa = PBXGroup;
+			children = (
+				692FB68B22FF1AC500294441 /* mygrcp */,
+				692FB69E22FF1AC600294441 /* mygrcpTests */,
+				692FB6A922FF1AC600294441 /* mygrcpUITests */,
+				692FB68A22FF1AC500294441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		692FB68A22FF1AC500294441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				692FB68922FF1AC500294441 /* mygrcp.app */,
+				692FB69B22FF1AC600294441 /* mygrcpTests.xctest */,
+				692FB6A622FF1AC600294441 /* mygrcpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		692FB68B22FF1AC500294441 /* mygrcp */ = {
+			isa = PBXGroup;
+			children = (
+				692FB68C22FF1AC500294441 /* AppDelegate.swift */,
+				692FB68E22FF1AC500294441 /* ViewController.swift */,
+				692FB69022FF1AC600294441 /* Assets.xcassets */,
+				692FB69222FF1AC600294441 /* Main.storyboard */,
+				692FB69522FF1AC600294441 /* Info.plist */,
+				692FB69622FF1AC600294441 /* mygrcp.entitlements */,
+			);
+			path = mygrcp;
+			sourceTree = "<group>";
+		};
+		692FB69E22FF1AC600294441 /* mygrcpTests */ = {
+			isa = PBXGroup;
+			children = (
+				692FB69F22FF1AC600294441 /* mygrcpTests.swift */,
+				692FB6A122FF1AC600294441 /* Info.plist */,
+			);
+			path = mygrcpTests;
+			sourceTree = "<group>";
+		};
+		692FB6A922FF1AC600294441 /* mygrcpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				692FB6AA22FF1AC600294441 /* mygrcpUITests.swift */,
+				692FB6AC22FF1AC600294441 /* Info.plist */,
+			);
+			path = mygrcpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		692FB68822FF1AC500294441 /* mygrcp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692FB6AF22FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcp" */;
+			buildPhases = (
+				692FB68522FF1AC500294441 /* Sources */,
+				692FB68622FF1AC500294441 /* Frameworks */,
+				692FB68722FF1AC500294441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mygrcp;
+			productName = mygrcp;
+			productReference = 692FB68922FF1AC500294441 /* mygrcp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692FB69A22FF1AC600294441 /* mygrcpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692FB6B222FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcpTests" */;
+			buildPhases = (
+				692FB69722FF1AC600294441 /* Sources */,
+				692FB69822FF1AC600294441 /* Frameworks */,
+				692FB69922FF1AC600294441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692FB69D22FF1AC600294441 /* PBXTargetDependency */,
+			);
+			name = mygrcpTests;
+			productName = mygrcpTests;
+			productReference = 692FB69B22FF1AC600294441 /* mygrcpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		692FB6A522FF1AC600294441 /* mygrcpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692FB6B522FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcpUITests" */;
+			buildPhases = (
+				692FB6A222FF1AC600294441 /* Sources */,
+				692FB6A322FF1AC600294441 /* Frameworks */,
+				692FB6A422FF1AC600294441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692FB6A822FF1AC600294441 /* PBXTargetDependency */,
+			);
+			name = mygrcpUITests;
+			productName = mygrcpUITests;
+			productReference = 692FB6A622FF1AC600294441 /* mygrcpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		692FB68122FF1AC500294441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = fugashy;
+				TargetAttributes = {
+					692FB68822FF1AC500294441 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					692FB69A22FF1AC600294441 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 692FB68822FF1AC500294441;
+					};
+					692FB6A522FF1AC600294441 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 692FB68822FF1AC500294441;
+					};
+				};
+			};
+			buildConfigurationList = 692FB68422FF1AC500294441 /* Build configuration list for PBXProject "mygrcp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 692FB68022FF1AC500294441;
+			productRefGroup = 692FB68A22FF1AC500294441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				692FB68822FF1AC500294441 /* mygrcp */,
+				692FB69A22FF1AC600294441 /* mygrcpTests */,
+				692FB6A522FF1AC600294441 /* mygrcpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		692FB68722FF1AC500294441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692FB69122FF1AC600294441 /* Assets.xcassets in Resources */,
+				692FB69422FF1AC600294441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB69922FF1AC600294441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB6A422FF1AC600294441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		692FB68522FF1AC500294441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692FB68F22FF1AC500294441 /* ViewController.swift in Sources */,
+				692FB68D22FF1AC500294441 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB69722FF1AC600294441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692FB6A022FF1AC600294441 /* mygrcpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FB6A222FF1AC600294441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692FB6AB22FF1AC600294441 /* mygrcpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		692FB69D22FF1AC600294441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692FB68822FF1AC500294441 /* mygrcp */;
+			targetProxy = 692FB69C22FF1AC600294441 /* PBXContainerItemProxy */;
+		};
+		692FB6A822FF1AC600294441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692FB68822FF1AC500294441 /* mygrcp */;
+			targetProxy = 692FB6A722FF1AC600294441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		692FB69222FF1AC600294441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				692FB69322FF1AC600294441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		692FB6AD22FF1AC600294441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		692FB6AE22FF1AC600294441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		692FB6B022FF1AC600294441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mygrcp/mygrcp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		692FB6B122FF1AC600294441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mygrcp/mygrcp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		692FB6B322FF1AC600294441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mygrcp.app/Contents/MacOS/mygrcp";
+			};
+			name = Debug;
+		};
+		692FB6B422FF1AC600294441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mygrcp.app/Contents/MacOS/mygrcp";
+			};
+			name = Release;
+		};
+		692FB6B622FF1AC600294441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mygrcp;
+			};
+			name = Debug;
+		};
+		692FB6B722FF1AC600294441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KA488366VT;
+				INFOPLIST_FILE = mygrcpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fugashy.mygrcpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mygrcp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		692FB68422FF1AC500294441 /* Build configuration list for PBXProject "mygrcp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692FB6AD22FF1AC600294441 /* Debug */,
+				692FB6AE22FF1AC600294441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692FB6AF22FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692FB6B022FF1AC600294441 /* Debug */,
+				692FB6B122FF1AC600294441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692FB6B222FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692FB6B322FF1AC600294441 /* Debug */,
+				692FB6B422FF1AC600294441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692FB6B522FF1AC600294441 /* Build configuration list for PBXNativeTarget "mygrcpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692FB6B622FF1AC600294441 /* Debug */,
+				692FB6B722FF1AC600294441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 692FB68122FF1AC500294441 /* Project object */;
+}
